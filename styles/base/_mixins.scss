@@ -1,0 +1,14 @@
+@use "./variables" as *;
+
+@mixin font($size: 14px, $color: $text, $weight: normal) {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: $size;
+  color: $color;
+  font-weight: $weight;
+}
+
+@mixin icon($content: "\e000", $color: $titels) {
+  content: $content;
+  font-family: icons;
+  color: $color;
+}
